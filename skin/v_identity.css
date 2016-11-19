@@ -428,7 +428,7 @@ treechildren::-moz-tree-cell-text(locked) {
 .menulist_clone-textbox, .menupopup_clone-text, .menupopup_clone-description {
 	margin:		0;
 	padding: 	1px;
-	background-color: transparent;
+	background-color: #232323;
 	background-image: none;
 	outline:	none;
 }

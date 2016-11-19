@@ -4,5 +4,5 @@ CLEAN_UP=1          # delete the jar / "files" when done?       (1/0)
 ROOT_FILES=        # put these files in root of xpi (space separated list of leaf filenames)
 ROOT_DIRS="defaults modules"         # ...and these directories       (space separated list)
 BEFORE_BUILD=      # run this before building       (bash command)
-AFTER_BUILD=       # ...and this after the build    (bash command)
+AFTER_BUILD="cp virtual_identity-0.9.32-tb+sm.xpi ${HOME}/Downloads/"       # ...and this after the build    (bash command)
 
